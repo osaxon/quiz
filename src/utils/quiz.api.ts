@@ -45,7 +45,17 @@ export const quizQueryOptions = queryOptions({
   queryFn: () => getQuizQuestions(),
 })
 
-export const questionQueryOptions = (id: number) => queryOptions({
-  queryKey: ["question", id],
-  queryFn: () => getQuestionById(id)
+export const questionQueryOptions = ({id, showAnswer}:{id: number, showAnswer?: boolean }) => queryOptions({
+  queryKey: ["question", id, showAnswer ?? false],
+  queryFn: () => getQuestionById(id),
+  select: (data) => {
+    if (!data) return null;
+
+    if (showAnswer) {
+      return data
+    }
+
+    const {answer, ...rest} = data;
+    return rest;
+  }
 })

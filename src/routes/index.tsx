@@ -10,7 +10,7 @@ function App() {
   const quiz = Route.useLoaderData()
 
   return (
-    <div className="min-h-screen bg-gradient-to-b from-slate-900 via-slate-800 to-slate-900">
+    <div className="min-h-screen">
       {quiz?.map(q => (
         <p key={q.id}>{q.question}</p>
       ))}
