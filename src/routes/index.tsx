@@ -9,8 +9,11 @@ function App() {
     <div className="min-h-screen bg-gradient-to-b from-slate-900 via-slate-800 to-slate-900 flex items-center justify-center p-8">
       <div className="max-w-2xl mx-auto text-center">
         <h1 className="text-5xl font-bold text-white mb-4">
-          Meal Quiz
+          Quiz Challenge
         </h1>
+        <p className="text-xl text-slate-300 mb-8">
+          Test your knowledge with 150 questions
+        </p>
         <Link
           to="/quiz/$q"
           params={{ q: '1' }}

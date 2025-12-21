@@ -37,7 +37,7 @@ function RouteComponent() {
 
   const goToNextQuestion = () => {
     const currentId = Number(q);
-    const nextId = currentId >= 110 ? 1 : currentId + 1;
+    const nextId = currentId >= 150 ? 1 : currentId + 1;
     navigate({
       to: '/quiz/$q',
       params: { q: String(nextId) },
@@ -46,7 +46,7 @@ function RouteComponent() {
   }
 
   const goToRandomQuestion = () => {
-    const randomId = Math.floor(Math.random() * 110) + 1;
+    const randomId = Math.floor(Math.random() * 150) + 1;
     navigate({
       to: '/quiz/$q',
       params: { q: String(randomId) },
@@ -64,7 +64,7 @@ function RouteComponent() {
     <div className="min-h-screen bg-gradient-to-b from-slate-900 via-slate-800 to-slate-900 p-8">
       <div className="max-w-2xl mx-auto bg-slate-800 rounded-lg p-6 shadow-xl">
         <h2 className="text-2xl font-bold text-white mb-4">
-          Question {question.id} of 110
+          Question {question.id} of 150
         </h2>
         <p className="text-lg text-white mb-6">{question.question}</p>
         
