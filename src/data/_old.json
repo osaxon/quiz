@@ -328,6 +328,7 @@
       "d": "Austria"
     },
     "answer": "a"
+  },
   {
     "id": 31,
     "question": "Which of these Premier League teams has NEVER been relegated?",
@@ -657,9 +658,7 @@
       "d": "Toy Story"
     },
     "answer": "d"
-  }
-]
-,
+  },
   {
     "id": 61,
     "question": "Which of these is NOT a real UK bank?",
@@ -989,9 +988,7 @@
       "d": "France"
     },
     "answer": "d"
-  }
-]
-,
+  },
   {
     "id": 91,
     "question": "Which of these is the correct number of hearts an octopus has?",
