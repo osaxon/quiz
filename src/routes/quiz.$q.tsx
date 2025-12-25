@@ -1,6 +1,7 @@
 import { questionQueryOptions } from '@/utils/quiz.api';
 import { createFileRoute, useNavigate } from '@tanstack/react-router';
 import { zodValidator } from '@tanstack/zod-adapter';
+import { useState, type ChangeEvent, type KeyboardEvent } from 'react';
 import z from 'zod';
 
 const questionSearchParams = z.object({
@@ -28,6 +29,8 @@ function RouteComponent() {
   const { showAnswer } = Route.useSearch();
   const { q } = Route.useParams();
   const navigate = useNavigate({ from: Route.fullPath });
+  const [goToInput, setGoToInput] = useState('');
+  const [inputError, setInputError] = useState('');
 
   const toggleAnswer = () => {
     navigate({
@@ -52,6 +55,44 @@ function RouteComponent() {
       params: { q: String(randomId) },
       search: { showAnswer: false }
     })
+  }
+
+  const goToSpecificQuestion = () => {
+    const questionNumber = Number(goToInput);
+    
+    if (!goToInput.trim()) {
+      setInputError('Please enter a question number');
+      return;
+    }
+    
+    if (isNaN(questionNumber)) {
+      setInputError('Please enter a valid number');
+      return;
+    }
+    
+    if (questionNumber < 1 || questionNumber > 50) {
+      setInputError('Question number must be between 1 and 50');
+      return;
+    }
+    
+    setInputError('');
+    setGoToInput('');
+    navigate({
+      to: '/quiz/$q',
+      params: { q: String(questionNumber) },
+      search: { showAnswer: false }
+    })
+  }
+
+  const handleInputChange = (e: ChangeEvent<HTMLInputElement>) => {
+    setGoToInput(e.target.value);
+    setInputError('');
+  }
+
+  const handleKeyPress = (e: KeyboardEvent<HTMLInputElement>) => {
+    if (e.key === 'Enter') {
+      goToSpecificQuestion();
+    }
   }
 
   if (!question) {
@@ -106,6 +147,33 @@ function RouteComponent() {
             <strong>Answer:</strong> {question.answer.toUpperCase()}
           </div>
         )}
+
+        <div className="mt-6 pt-6 border-t border-slate-700">
+          <label className="block text-white text-sm font-bold mb-2">
+            Go to Question:
+          </label>
+          <div className="flex gap-2">
+            <input
+              type="number"
+              min="1"
+              max="50"
+              value={goToInput}
+              onChange={handleInputChange}
+              onKeyPress={handleKeyPress}
+              placeholder="Enter 1-50"
+              className="flex-1 bg-slate-700 text-white px-4 py-2 rounded border border-slate-600 focus:outline-none focus:border-blue-500"
+            />
+            <button
+              onClick={goToSpecificQuestion}
+              className="bg-teal-500 hover:bg-teal-600 text-white font-bold py-2 px-6 rounded"
+            >
+              Go
+            </button>
+          </div>
+          {inputError && (
+            <p className="mt-2 text-red-400 text-sm">{inputError}</p>
+          )}
+        </div>
       </div>
     </div>
   )
