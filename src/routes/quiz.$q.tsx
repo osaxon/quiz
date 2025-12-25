@@ -1,8 +1,11 @@
 import { questionQueryOptions } from '@/utils/quiz.api';
 import { createFileRoute, useNavigate } from '@tanstack/react-router';
 import { zodValidator } from '@tanstack/zod-adapter';
-import { useState, type ChangeEvent, type KeyboardEvent } from 'react';
+import { useEffect, useState, type ChangeEvent, type KeyboardEvent } from 'react';
 import z from 'zod';
+
+const ROUNDS_STORAGE_KEY = 'quiz-rounds-completed';
+const ANSWERED_STORAGE_KEY = 'quiz-answered-questions';
 
 const questionSearchParams = z.object({
   showAnswer: z.boolean().optional()
@@ -31,6 +34,61 @@ function RouteComponent() {
   const navigate = useNavigate({ from: Route.fullPath });
   const [goToInput, setGoToInput] = useState('');
   const [inputError, setInputError] = useState('');
+  const [roundsCompleted, setRoundsCompleted] = useState(0);
+  const [showGameOver, setShowGameOver] = useState(false);
+  const [answeredQuestions, setAnsweredQuestions] = useState<number[]>([]);
+
+  useEffect(() => {
+    const storedRounds = localStorage.getItem(ROUNDS_STORAGE_KEY);
+    if (storedRounds) {
+      setRoundsCompleted(Number(storedRounds));
+    }
+    const storedAnswered = localStorage.getItem(ANSWERED_STORAGE_KEY);
+    if (storedAnswered) {
+      setAnsweredQuestions(JSON.parse(storedAnswered));
+    }
+  }, []);
+
+  const updateRounds = (newRounds: number) => {
+    setRoundsCompleted(newRounds);
+    localStorage.setItem(ROUNDS_STORAGE_KEY, String(newRounds));
+  };
+
+  const markQuestionAnswered = (questionId: number) => {
+    if (!answeredQuestions.includes(questionId)) {
+      const updated = [...answeredQuestions, questionId];
+      setAnsweredQuestions(updated);
+      localStorage.setItem(ANSWERED_STORAGE_KEY, JSON.stringify(updated));
+    }
+  };
+
+  const clearAnsweredHistory = () => {
+    setAnsweredQuestions([]);
+    localStorage.removeItem(ANSWERED_STORAGE_KEY);
+  };
+
+  const fullReset = () => {
+    updateRounds(0);
+    clearAnsweredHistory();
+    setShowGameOver(false);
+  };
+
+  const handleCorrectAnswer = () => {
+    markQuestionAnswered(Number(q));
+    updateRounds(roundsCompleted + 1);
+    setShowGameOver(false);
+    goToNextQuestion();
+  };
+
+  const handleWrongAnswer = () => {
+    markQuestionAnswered(Number(q));
+    setShowGameOver(true);
+  };
+
+  const resetGame = () => {
+    updateRounds(0);
+    setShowGameOver(false);
+  };
 
   const toggleAnswer = () => {
     navigate({
@@ -141,6 +199,51 @@ function RouteComponent() {
             Random Question 🎲
           </button>
         </div>
+
+        <div className="mt-4 flex gap-3 flex-wrap">
+          <button
+            onClick={handleCorrectAnswer}
+            className="bg-green-500 hover:bg-green-600 text-white font-bold py-2 px-4 rounded"
+          >
+            ✓ Correct
+          </button>
+          <button
+            onClick={handleWrongAnswer}
+            className="bg-red-500 hover:bg-red-600 text-white font-bold py-2 px-4 rounded"
+          >
+            ✗ Wrong
+          </button>
+        </div>
+
+        <div className="mt-4 p-4 bg-slate-700 rounded text-white text-center">
+          <span className="text-lg font-bold">Rounds Completed: {roundsCompleted}</span>
+          <span className="mx-4">|</span>
+          <span className="text-sm">Questions Answered: {answeredQuestions.length}/150</span>
+          {answeredQuestions.includes(Number(q)) && (
+            <span className="ml-2 text-yellow-400 text-sm">(Already answered)</span>
+          )}
+        </div>
+
+        <div className="mt-2 text-center">
+          <button
+            onClick={fullReset}
+            className="text-sm text-slate-400 hover:text-white underline"
+          >
+            Full Reset (Clear all history)
+          </button>
+        </div>
+
+        {showGameOver && (
+          <div className="mt-4 p-4 bg-red-800 rounded text-white text-center">
+            <p className="text-lg font-bold mb-3">Game Over! You completed {roundsCompleted} rounds.</p>
+            <button
+              onClick={resetGame}
+              className="bg-yellow-500 hover:bg-yellow-600 text-black font-bold py-2 px-6 rounded"
+            >
+              Reset & Start Over
+            </button>
+          </div>
+        )}
 
         {showAnswer && 'answer' in question && (
           <div className="mt-4 p-4 bg-green-700 rounded text-white">
