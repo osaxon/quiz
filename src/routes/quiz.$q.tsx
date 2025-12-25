@@ -40,7 +40,7 @@ function RouteComponent() {
 
   const goToNextQuestion = () => {
     const currentId = Number(q);
-    const nextId = currentId >= 50 ? 1 : currentId + 1;
+    const nextId = currentId >= 150 ? 1 : currentId + 1;
     navigate({
       to: '/quiz/$q',
       params: { q: String(nextId) },
@@ -49,7 +49,7 @@ function RouteComponent() {
   }
 
   const goToRandomQuestion = () => {
-    const randomId = Math.floor(Math.random() * 50) + 1;
+    const randomId = Math.floor(Math.random() * 150) + 1;
     navigate({
       to: '/quiz/$q',
       params: { q: String(randomId) },
@@ -70,8 +70,8 @@ function RouteComponent() {
       return;
     }
     
-    if (questionNumber < 1 || questionNumber > 50) {
-      setInputError('Question number must be between 1 and 50');
+    if (questionNumber < 1 || questionNumber > 150) {
+      setInputError('Question number must be between 1 and 150');
       return;
     }
     
@@ -156,11 +156,11 @@ function RouteComponent() {
             <input
               type="number"
               min="1"
-              max="50"
+              max="150"
               value={goToInput}
               onChange={handleInputChange}
               onKeyPress={handleKeyPress}
-              placeholder="Enter 1-50"
+              placeholder="Enter 1-150"
               className="flex-1 bg-slate-700 text-white px-4 py-2 rounded border border-slate-600 focus:outline-none focus:border-blue-500"
             />
             <button

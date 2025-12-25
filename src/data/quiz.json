@@ -1,7 +1,7 @@
 [
   {
     "id": 1,
-    "question": "Which of these countries has NEVER won the men\u2019s FIFA World Cup?",
+    "question": "Which of these countries has NEVER won the men's FIFA World Cup?",
     "options": {
       "a": "Spain",
       "b": "France",
@@ -199,7 +199,7 @@
   },
   {
     "id": 19,
-    "question": "Which of these countries has won the most men\u2019s Rugby World Cups?",
+    "question": "Which of these countries has won the most men's Rugby World Cups?",
     "options": {
       "a": "South Africa",
       "b": "England",
@@ -419,12 +419,12 @@
   },
   {
     "id": 39,
-    "question": "Which of these footballers won the Ballon d\u2019Or first?",
+    "question": "Which of these footballers won the Ballon d'Or first?",
     "options": {
       "a": "Lionel Messi",
       "b": "Cristiano Ronaldo",
       "c": "Ronaldinho",
-      "d": "Kak\u00e1"
+      "d": "Kaká"
     },
     "answer": "c"
   },
@@ -474,7 +474,7 @@
   },
   {
     "id": 44,
-    "question": "Which of these sports uses the term \u2018love\u2019?",
+    "question": "Which of these sports uses the term 'love'?",
     "options": {
       "a": "Tennis",
       "b": "Cricket",
@@ -490,7 +490,7 @@
       "a": "1984",
       "b": "Brave New World",
       "c": "Fahrenheit 451",
-      "d": "The Handmaid\u2019s Tale"
+      "d": "The Handmaid's Tale"
     },
     "answer": "a"
   },
@@ -548,5 +548,1105 @@
       "d": "The Departed"
     },
     "answer": "a"
+  },
+  {
+    "id": 51,
+    "question": "Which of these composers was born first?",
+    "options": {
+      "a": "Mozart",
+      "b": "Beethoven",
+      "c": "Bach",
+      "d": "Chopin"
+    },
+    "answer": "c"
+  },
+  {
+    "id": 52,
+    "question": "Which of these countries has the largest population?",
+    "options": {
+      "a": "Brazil",
+      "b": "Indonesia",
+      "c": "Pakistan",
+      "d": "Nigeria"
+    },
+    "answer": "b"
+  },
+  {
+    "id": 53,
+    "question": "Which of these video games was released first?",
+    "options": {
+      "a": "Grand Theft Auto V",
+      "b": "The Last of Us",
+      "c": "Red Dead Redemption 2",
+      "d": "God of War (2018)"
+    },
+    "answer": "b"
+  },
+  {
+    "id": 54,
+    "question": "Which of these is NOT a bone in the human body?",
+    "options": {
+      "a": "Femur",
+      "b": "Tibia",
+      "c": "Deltoid",
+      "d": "Humerus"
+    },
+    "answer": "c"
+  },
+  {
+    "id": 55,
+    "question": "Which of these directors made The Shawshank Redemption?",
+    "options": {
+      "a": "Frank Darabont",
+      "b": "Martin Scorsese",
+      "c": "Quentin Tarantino",
+      "d": "David Fincher"
+    },
+    "answer": "a"
+  },
+  {
+    "id": 56,
+    "question": "Which of these countries does NOT have a coastline?",
+    "options": {
+      "a": "Bolivia",
+      "b": "Paraguay",
+      "c": "Uruguay",
+      "d": "Both A and B"
+    },
+    "answer": "d"
+  },
+  {
+    "id": 57,
+    "question": "Which of these artists painted The Starry Night?",
+    "options": {
+      "a": "Claude Monet",
+      "b": "Vincent van Gogh",
+      "c": "Pablo Picasso",
+      "d": "Salvador Dalí"
+    },
+    "answer": "b"
+  },
+  {
+    "id": 58,
+    "question": "Which of these Formula 1 drivers has won the most World Championships?",
+    "options": {
+      "a": "Michael Schumacher",
+      "b": "Lewis Hamilton",
+      "c": "Sebastian Vettel",
+      "d": "Ayrton Senna"
+    },
+    "answer": "b"
+  },
+  {
+    "id": 59,
+    "question": "Which of these is the largest ocean?",
+    "options": {
+      "a": "Atlantic Ocean",
+      "b": "Indian Ocean",
+      "c": "Pacific Ocean",
+      "d": "Arctic Ocean"
+    },
+    "answer": "c"
+  },
+  {
+    "id": 60,
+    "question": "Which of these TV series has the most episodes?",
+    "options": {
+      "a": "Friends",
+      "b": "The Simpsons",
+      "c": "Breaking Bad",
+      "d": "Game of Thrones"
+    },
+    "answer": "b"
+  },
+  {
+    "id": 61,
+    "question": "Which of these elements is the lightest?",
+    "options": {
+      "a": "Helium",
+      "b": "Hydrogen",
+      "c": "Lithium",
+      "d": "Carbon"
+    },
+    "answer": "b"
+  },
+  {
+    "id": 62,
+    "question": "Which of these countries hosted the 2014 FIFA World Cup?",
+    "options": {
+      "a": "South Africa",
+      "b": "Russia",
+      "c": "Brazil",
+      "d": "Germany"
+    },
+    "answer": "c"
+  },
+  {
+    "id": 63,
+    "question": "Which of these authors wrote Pride and Prejudice?",
+    "options": {
+      "a": "Charlotte Brontë",
+      "b": "Jane Austen",
+      "c": "Emily Brontë",
+      "d": "Mary Shelley"
+    },
+    "answer": "b"
+  },
+  {
+    "id": 64,
+    "question": "Which of these is NOT a programming language?",
+    "options": {
+      "a": "Python",
+      "b": "Java",
+      "c": "Linux",
+      "d": "Ruby"
+    },
+    "answer": "c"
+  },
+  {
+    "id": 65,
+    "question": "Which of these films features the character Tyler Durden?",
+    "options": {
+      "a": "American Psycho",
+      "b": "Fight Club",
+      "c": "Se7en",
+      "d": "Memento"
+    },
+    "answer": "b"
+  },
+  {
+    "id": 66,
+    "question": "Which of these countries has the most time zones?",
+    "options": {
+      "a": "Russia",
+      "b": "United States",
+      "c": "France",
+      "d": "China"
+    },
+    "answer": "c"
+  },
+  {
+    "id": 67,
+    "question": "Which of these bands had a member named Freddie Mercury?",
+    "options": {
+      "a": "Led Zeppelin",
+      "b": "Queen",
+      "c": "The Rolling Stones",
+      "d": "Pink Floyd"
+    },
+    "answer": "b"
+  },
+  {
+    "id": 68,
+    "question": "Which of these is the smallest country by area?",
+    "options": {
+      "a": "Monaco",
+      "b": "San Marino",
+      "c": "Vatican City",
+      "d": "Liechtenstein"
+    },
+    "answer": "c"
+  },
+  {
+    "id": 69,
+    "question": "Which of these actors played The Joker in a Batman film?",
+    "options": {
+      "a": "Jack Nicholson",
+      "b": "Jim Carrey",
+      "c": "Tommy Lee Jones",
+      "d": "Arnold Schwarzenegger"
+    },
+    "answer": "a"
+  },
+  {
+    "id": 70,
+    "question": "Which of these sports is NOT in the Summer Olympics?",
+    "options": {
+      "a": "Fencing",
+      "b": "Archery",
+      "c": "Cricket",
+      "d": "Table Tennis"
+    },
+    "answer": "c"
+  },
+  {
+    "id": 71,
+    "question": "Which of these inventions came first?",
+    "options": {
+      "a": "Telephone",
+      "b": "Light bulb",
+      "c": "Radio",
+      "d": "Television"
+    },
+    "answer": "a"
+  },
+  {
+    "id": 72,
+    "question": "Which of these is NOT a Marvel superhero?",
+    "options": {
+      "a": "Iron Man",
+      "b": "Thor",
+      "c": "Aquaman",
+      "d": "Black Panther"
+    },
+    "answer": "c"
+  },
+  {
+    "id": 73,
+    "question": "Which of these languages has the most native speakers?",
+    "options": {
+      "a": "English",
+      "b": "Spanish",
+      "c": "Mandarin Chinese",
+      "d": "Hindi"
+    },
+    "answer": "c"
+  },
+  {
+    "id": 74,
+    "question": "Which of these films was NOT directed by Christopher Nolan?",
+    "options": {
+      "a": "Interstellar",
+      "b": "Dunkirk",
+      "c": "Blade Runner 2049",
+      "d": "Tenet"
+    },
+    "answer": "c"
+  },
+  {
+    "id": 75,
+    "question": "Which of these is the longest river in Africa?",
+    "options": {
+      "a": "Congo",
+      "b": "Niger",
+      "c": "Nile",
+      "d": "Zambezi"
+    },
+    "answer": "c"
+  },
+  {
+    "id": 76,
+    "question": "Which of these tennis players has won the most Grand Slam singles titles?",
+    "options": {
+      "a": "Roger Federer",
+      "b": "Rafael Nadal",
+      "c": "Novak Djokovic",
+      "d": "Pete Sampras"
+    },
+    "answer": "c"
+  },
+  {
+    "id": 77,
+    "question": "Which of these is NOT a type of cloud?",
+    "options": {
+      "a": "Cumulus",
+      "b": "Stratus",
+      "c": "Nimbus",
+      "d": "Solaris"
+    },
+    "answer": "d"
+  },
+  {
+    "id": 78,
+    "question": "Which of these TV shows is set in Albuquerque, New Mexico?",
+    "options": {
+      "a": "The Wire",
+      "b": "Breaking Bad",
+      "c": "The Sopranos",
+      "d": "Dexter"
+    },
+    "answer": "b"
+  },
+  {
+    "id": 79,
+    "question": "Which of these countries was formerly known as Persia?",
+    "options": {
+      "a": "Iraq",
+      "b": "Iran",
+      "c": "Turkey",
+      "d": "Afghanistan"
+    },
+    "answer": "b"
+  },
+  {
+    "id": 80,
+    "question": "Which of these albums was released by The Beatles?",
+    "options": {
+      "a": "The Dark Side of the Moon",
+      "b": "Abbey Road",
+      "c": "Led Zeppelin IV",
+      "d": "Rumours"
+    },
+    "answer": "b"
+  },
+  {
+    "id": 81,
+    "question": "Which of these is the hardest natural substance?",
+    "options": {
+      "a": "Quartz",
+      "b": "Topaz",
+      "c": "Diamond",
+      "d": "Sapphire"
+    },
+    "answer": "c"
+  },
+  {
+    "id": 82,
+    "question": "Which of these actors has NOT played Spider-Man in a feature film?",
+    "options": {
+      "a": "Tobey Maguire",
+      "b": "Andrew Garfield",
+      "c": "Tom Holland",
+      "d": "Jake Gyllenhaal"
+    },
+    "answer": "d"
+  },
+  {
+    "id": 83,
+    "question": "Which of these cities is NOT a national capital?",
+    "options": {
+      "a": "Sydney",
+      "b": "Ottawa",
+      "c": "Brasília",
+      "d": "Wellington"
+    },
+    "answer": "a"
+  },
+  {
+    "id": 84,
+    "question": "Which of these is the largest desert in the world?",
+    "options": {
+      "a": "Sahara",
+      "b": "Arabian",
+      "c": "Gobi",
+      "d": "Antarctic"
+    },
+    "answer": "d"
+  },
+  {
+    "id": 85,
+    "question": "Which of these musicians was NOT a member of The Rolling Stones?",
+    "options": {
+      "a": "Mick Jagger",
+      "b": "Keith Richards",
+      "c": "John Lennon",
+      "d": "Charlie Watts"
+    },
+    "answer": "c"
+  },
+  {
+    "id": 86,
+    "question": "Which of these is NOT one of the Great Lakes?",
+    "options": {
+      "a": "Lake Michigan",
+      "b": "Lake Ontario",
+      "c": "Lake Winnipeg",
+      "d": "Lake Erie"
+    },
+    "answer": "c"
+  },
+  {
+    "id": 87,
+    "question": "Which of these films won the Academy Award for Best Picture in 2020?",
+    "options": {
+      "a": "1917",
+      "b": "Joker",
+      "c": "Parasite",
+      "d": "Once Upon a Time in Hollywood"
+    },
+    "answer": "c"
+  },
+  {
+    "id": 88,
+    "question": "Which of these is the chemical formula for water?",
+    "options": {
+      "a": "CO2",
+      "b": "H2O",
+      "c": "NaCl",
+      "d": "O2"
+    },
+    "answer": "b"
+  },
+  {
+    "id": 89,
+    "question": "Which of these football clubs has won the most UEFA Champions League titles?",
+    "options": {
+      "a": "AC Milan",
+      "b": "Barcelona",
+      "c": "Real Madrid",
+      "d": "Bayern Munich"
+    },
+    "answer": "c"
+  },
+  {
+    "id": 90,
+    "question": "Which of these authors wrote The Great Gatsby?",
+    "options": {
+      "a": "Ernest Hemingway",
+      "b": "F. Scott Fitzgerald",
+      "c": "John Steinbeck",
+      "d": "William Faulkner"
+    },
+    "answer": "b"
+  },
+  {
+    "id": 91,
+    "question": "Which of these planets is known as the Red Planet?",
+    "options": {
+      "a": "Venus",
+      "b": "Mars",
+      "c": "Jupiter",
+      "d": "Mercury"
+    },
+    "answer": "b"
+  },
+  {
+    "id": 92,
+    "question": "Which of these TV shows features a character named Walter White?",
+    "options": {
+      "a": "The Wire",
+      "b": "Mad Men",
+      "c": "Breaking Bad",
+      "d": "Better Call Saul"
+    },
+    "answer": "c"
+  },
+  {
+    "id": 93,
+    "question": "Which of these is NOT a primary color in the RGB color model?",
+    "options": {
+      "a": "Red",
+      "b": "Yellow",
+      "c": "Green",
+      "d": "Blue"
+    },
+    "answer": "b"
+  },
+  {
+    "id": 94,
+    "question": "Which of these countries has the longest coastline?",
+    "options": {
+      "a": "Russia",
+      "b": "Australia",
+      "c": "Canada",
+      "d": "United States"
+    },
+    "answer": "c"
+  },
+  {
+    "id": 95,
+    "question": "Which of these films features the quote 'Here's looking at you, kid'?",
+    "options": {
+      "a": "Gone with the Wind",
+      "b": "Casablanca",
+      "c": "Citizen Kane",
+      "d": "The Maltese Falcon"
+    },
+    "answer": "b"
+  },
+  {
+    "id": 96,
+    "question": "Which of these is the largest organ in the human body?",
+    "options": {
+      "a": "Liver",
+      "b": "Brain",
+      "c": "Skin",
+      "d": "Heart"
+    },
+    "answer": "c"
+  },
+  {
+    "id": 97,
+    "question": "Which of these golfers has won the most major championships?",
+    "options": {
+      "a": "Tiger Woods",
+      "b": "Jack Nicklaus",
+      "c": "Arnold Palmer",
+      "d": "Phil Mickelson"
+    },
+    "answer": "b"
+  },
+  {
+    "id": 98,
+    "question": "Which of these is NOT a Quentin Tarantino film?",
+    "options": {
+      "a": "Reservoir Dogs",
+      "b": "Kill Bill",
+      "c": "Sin City",
+      "d": "Django Unchained"
+    },
+    "answer": "c"
+  },
+  {
+    "id": 99,
+    "question": "Which of these countries is an island nation?",
+    "options": {
+      "a": "Portugal",
+      "b": "Denmark",
+      "c": "Iceland",
+      "d": "Norway"
+    },
+    "answer": "c"
+  },
+  {
+    "id": 100,
+    "question": "Which of these bands released the album 'Nevermind'?",
+    "options": {
+      "a": "Pearl Jam",
+      "b": "Nirvana",
+      "c": "Soundgarden",
+      "d": "Alice in Chains"
+    },
+    "answer": "b"
+  },
+  {
+    "id": 101,
+    "question": "Which of these is the speed of light in a vacuum (approximately)?",
+    "options": {
+      "a": "300,000 km/s",
+      "b": "150,000 km/s",
+      "c": "500,000 km/s",
+      "d": "1,000,000 km/s"
+    },
+    "answer": "a"
+  },
+  {
+    "id": 102,
+    "question": "Which of these actors played Hannibal Lecter in The Silence of the Lambs?",
+    "options": {
+      "a": "Anthony Hopkins",
+      "b": "Mads Mikkelsen",
+      "c": "Brian Cox",
+      "d": "Gary Oldman"
+    },
+    "answer": "a"
+  },
+  {
+    "id": 103,
+    "question": "Which of these countries is NOT in South America?",
+    "options": {
+      "a": "Ecuador",
+      "b": "Guyana",
+      "c": "Belize",
+      "d": "Suriname"
+    },
+    "answer": "c"
+  },
+  {
+    "id": 104,
+    "question": "Which of these is the longest bone in the human body?",
+    "options": {
+      "a": "Tibia",
+      "b": "Femur",
+      "c": "Humerus",
+      "d": "Fibula"
+    },
+    "answer": "b"
+  },
+  {
+    "id": 105,
+    "question": "Which of these TV shows is a spin-off of Breaking Bad?",
+    "options": {
+      "a": "Ozark",
+      "b": "Better Call Saul",
+      "c": "Narcos",
+      "d": "The Wire"
+    },
+    "answer": "b"
+  },
+  {
+    "id": 106,
+    "question": "Which of these is NOT a dwarf planet?",
+    "options": {
+      "a": "Pluto",
+      "b": "Eris",
+      "c": "Ceres",
+      "d": "Europa"
+    },
+    "answer": "d"
+  },
+  {
+    "id": 107,
+    "question": "Which of these musicians released the album 'Thriller'?",
+    "options": {
+      "a": "Prince",
+      "b": "Michael Jackson",
+      "c": "Whitney Houston",
+      "d": "Stevie Wonder"
+    },
+    "answer": "b"
+  },
+  {
+    "id": 108,
+    "question": "Which of these wars ended first?",
+    "options": {
+      "a": "World War I",
+      "b": "American Civil War",
+      "c": "Korean War",
+      "d": "Vietnam War"
+    },
+    "answer": "b"
+  },
+  {
+    "id": 109,
+    "question": "Which of these films features a character named Forrest Gump?",
+    "options": {
+      "a": "Rain Man",
+      "b": "Forrest Gump",
+      "c": "Cast Away",
+      "d": "The Green Mile"
+    },
+    "answer": "b"
+  },
+  {
+    "id": 110,
+    "question": "Which of these is the tallest building in the world (as of 2024)?",
+    "options": {
+      "a": "Shanghai Tower",
+      "b": "Burj Khalifa",
+      "c": "One World Trade Center",
+      "d": "Taipei 101"
+    },
+    "answer": "b"
+  },
+  {
+    "id": 111,
+    "question": "Which of these is NOT a type of pasta?",
+    "options": {
+      "a": "Penne",
+      "b": "Rigatoni",
+      "c": "Gnocchi",
+      "d": "Prosciutto"
+    },
+    "answer": "d"
+  },
+  {
+    "id": 112,
+    "question": "Which of these boxers was known as 'The Greatest'?",
+    "options": {
+      "a": "Mike Tyson",
+      "b": "Muhammad Ali",
+      "c": "Floyd Mayweather",
+      "d": "Sugar Ray Leonard"
+    },
+    "answer": "b"
+  },
+  {
+    "id": 113,
+    "question": "Which of these is the largest continent by area?",
+    "options": {
+      "a": "Africa",
+      "b": "North America",
+      "c": "Asia",
+      "d": "Europe"
+    },
+    "answer": "c"
+  },
+  {
+    "id": 114,
+    "question": "Which of these films was released in 1994?",
+    "options": {
+      "a": "The Shawshank Redemption",
+      "b": "Goodfellas",
+      "c": "Schindler's List",
+      "d": "Braveheart"
+    },
+    "answer": "a"
+  },
+  {
+    "id": 115,
+    "question": "Which of these is NOT a zodiac sign?",
+    "options": {
+      "a": "Capricorn",
+      "b": "Ophiuchus",
+      "c": "Sagittarius",
+      "d": "Aquarius"
+    },
+    "answer": "b"
+  },
+  {
+    "id": 116,
+    "question": "Which of these countries has won the most FIFA Women's World Cups?",
+    "options": {
+      "a": "Germany",
+      "b": "United States",
+      "c": "Brazil",
+      "d": "Japan"
+    },
+    "answer": "b"
+  },
+  {
+    "id": 117,
+    "question": "Which of these is the chemical symbol for gold?",
+    "options": {
+      "a": "Go",
+      "b": "Gd",
+      "c": "Au",
+      "d": "Ag"
+    },
+    "answer": "c"
+  },
+  {
+    "id": 118,
+    "question": "Which of these TV shows is set in the 1960s advertising industry?",
+    "options": {
+      "a": "Boardwalk Empire",
+      "b": "Mad Men",
+      "c": "The Crown",
+      "d": "Downton Abbey"
+    },
+    "answer": "b"
+  },
+  {
+    "id": 119,
+    "question": "Which of these is the deepest ocean trench?",
+    "options": {
+      "a": "Puerto Rico Trench",
+      "b": "Java Trench",
+      "c": "Mariana Trench",
+      "d": "Philippine Trench"
+    },
+    "answer": "c"
+  },
+  {
+    "id": 120,
+    "question": "Which of these artists released the album '21'?",
+    "options": {
+      "a": "Taylor Swift",
+      "b": "Beyoncé",
+      "c": "Adele",
+      "d": "Rihanna"
+    },
+    "answer": "c"
+  },
+  {
+    "id": 121,
+    "question": "Which of these is NOT a Shakespeare tragedy?",
+    "options": {
+      "a": "Hamlet",
+      "b": "Macbeth",
+      "c": "The Tempest",
+      "d": "Othello"
+    },
+    "answer": "c"
+  },
+  {
+    "id": 122,
+    "question": "Which of these NBA players has scored the most career points?",
+    "options": {
+      "a": "Michael Jordan",
+      "b": "Kobe Bryant",
+      "c": "LeBron James",
+      "d": "Kareem Abdul-Jabbar"
+    },
+    "answer": "c"
+  },
+  {
+    "id": 123,
+    "question": "Which of these is the largest species of shark?",
+    "options": {
+      "a": "Great White Shark",
+      "b": "Whale Shark",
+      "c": "Hammerhead Shark",
+      "d": "Tiger Shark"
+    },
+    "answer": "b"
+  },
+  {
+    "id": 124,
+    "question": "Which of these films was NOT directed by Martin Scorsese?",
+    "options": {
+      "a": "Goodfellas",
+      "b": "The Departed",
+      "c": "Heat",
+      "d": "The Wolf of Wall Street"
+    },
+    "answer": "c"
+  },
+  {
+    "id": 125,
+    "question": "Which of these countries has the most UNESCO World Heritage Sites?",
+    "options": {
+      "a": "China",
+      "b": "Italy",
+      "c": "Spain",
+      "d": "France"
+    },
+    "answer": "b"
+  },
+  {
+    "id": 126,
+    "question": "Which of these is the most abundant gas in Earth's atmosphere?",
+    "options": {
+      "a": "Oxygen",
+      "b": "Carbon Dioxide",
+      "c": "Nitrogen",
+      "d": "Argon"
+    },
+    "answer": "c"
+  },
+  {
+    "id": 127,
+    "question": "Which of these bands released the album 'The Dark Side of the Moon'?",
+    "options": {
+      "a": "Led Zeppelin",
+      "b": "Pink Floyd",
+      "c": "The Who",
+      "d": "Deep Purple"
+    },
+    "answer": "b"
+  },
+  {
+    "id": 128,
+    "question": "Which of these is NOT a real element on the periodic table?",
+    "options": {
+      "a": "Einsteinium",
+      "b": "Californium",
+      "c": "Unobtainium",
+      "d": "Americium"
+    },
+    "answer": "c"
+  },
+  {
+    "id": 129,
+    "question": "Which of these films features the character John Wick?",
+    "options": {
+      "a": "The Equalizer",
+      "b": "John Wick",
+      "c": "Taken",
+      "d": "Nobody"
+    },
+    "answer": "b"
+  },
+  {
+    "id": 130,
+    "question": "Which of these countries is the largest by area?",
+    "options": {
+      "a": "Canada",
+      "b": "United States",
+      "c": "China",
+      "d": "Russia"
+    },
+    "answer": "d"
+  },
+  {
+    "id": 131,
+    "question": "Which of these is the smallest planet in our solar system?",
+    "options": {
+      "a": "Mars",
+      "b": "Mercury",
+      "c": "Venus",
+      "d": "Pluto"
+    },
+    "answer": "b"
+  },
+  {
+    "id": 132,
+    "question": "Which of these TV shows features dragons?",
+    "options": {
+      "a": "The Witcher",
+      "b": "Game of Thrones",
+      "c": "Vikings",
+      "d": "The Last Kingdom"
+    },
+    "answer": "b"
+  },
+  {
+    "id": 133,
+    "question": "Which of these is the currency of Japan?",
+    "options": {
+      "a": "Yuan",
+      "b": "Won",
+      "c": "Yen",
+      "d": "Ringgit"
+    },
+    "answer": "c"
+  },
+  {
+    "id": 134,
+    "question": "Which of these actors has NOT played Batman?",
+    "options": {
+      "a": "George Clooney",
+      "b": "Val Kilmer",
+      "c": "Ryan Gosling",
+      "d": "Ben Affleck"
+    },
+    "answer": "c"
+  },
+  {
+    "id": 135,
+    "question": "Which of these is the largest lake by surface area?",
+    "options": {
+      "a": "Lake Superior",
+      "b": "Lake Victoria",
+      "c": "Caspian Sea",
+      "d": "Lake Baikal"
+    },
+    "answer": "c"
+  },
+  {
+    "id": 136,
+    "question": "Which of these musicians is known as the 'King of Pop'?",
+    "options": {
+      "a": "Elvis Presley",
+      "b": "Michael Jackson",
+      "c": "Prince",
+      "d": "David Bowie"
+    },
+    "answer": "b"
+  },
+  {
+    "id": 137,
+    "question": "Which of these is NOT a real phobia?",
+    "options": {
+      "a": "Arachnophobia",
+      "b": "Claustrophobia",
+      "c": "Hippopotomonstrosesquippedaliophobia",
+      "d": "Chromophobia"
+    },
+    "answer": "d"
+  },
+  {
+    "id": 138,
+    "question": "Which of these films won the first Academy Award for Best Picture?",
+    "options": {
+      "a": "The Jazz Singer",
+      "b": "Wings",
+      "c": "Sunrise",
+      "d": "The Broadway Melody"
+    },
+    "answer": "b"
+  },
+  {
+    "id": 139,
+    "question": "Which of these countries does NOT border France?",
+    "options": {
+      "a": "Belgium",
+      "b": "Luxembourg",
+      "c": "Netherlands",
+      "d": "Switzerland"
+    },
+    "answer": "c"
+  },
+  {
+    "id": 140,
+    "question": "Which of these is the hottest planet in our solar system?",
+    "options": {
+      "a": "Mercury",
+      "b": "Venus",
+      "c": "Mars",
+      "d": "Jupiter"
+    },
+    "answer": "b"
+  },
+  {
+    "id": 141,
+    "question": "Which of these TV shows is set in Baltimore?",
+    "options": {
+      "a": "The Sopranos",
+      "b": "The Wire",
+      "c": "Breaking Bad",
+      "d": "Dexter"
+    },
+    "answer": "b"
+  },
+  {
+    "id": 142,
+    "question": "Which of these is the largest mammal?",
+    "options": {
+      "a": "African Elephant",
+      "b": "Blue Whale",
+      "c": "Giraffe",
+      "d": "Hippopotamus"
+    },
+    "answer": "b"
+  },
+  {
+    "id": 143,
+    "question": "Which of these directors made Pulp Fiction?",
+    "options": {
+      "a": "Martin Scorsese",
+      "b": "Quentin Tarantino",
+      "c": "David Fincher",
+      "d": "Ridley Scott"
+    },
+    "answer": "b"
+  },
+  {
+    "id": 144,
+    "question": "Which of these is NOT a real constellation?",
+    "options": {
+      "a": "Orion",
+      "b": "Cassiopeia",
+      "c": "Phoenix",
+      "d": "Draco"
+    },
+    "answer": "c"
+  },
+  {
+    "id": 145,
+    "question": "Which of these athletes has won the most Olympic gold medals?",
+    "options": {
+      "a": "Usain Bolt",
+      "b": "Michael Phelps",
+      "c": "Carl Lewis",
+      "d": "Mark Spitz"
+    },
+    "answer": "b"
+  },
+  {
+    "id": 146,
+    "question": "Which of these is the capital of Canada?",
+    "options": {
+      "a": "Toronto",
+      "b": "Vancouver",
+      "c": "Ottawa",
+      "d": "Montreal"
+    },
+    "answer": "c"
+  },
+  {
+    "id": 147,
+    "question": "Which of these films features the character Maximus Decimus Meridius?",
+    "options": {
+      "a": "Troy",
+      "b": "300",
+      "c": "Gladiator",
+      "d": "Ben-Hur"
+    },
+    "answer": "c"
+  },
+  {
+    "id": 148,
+    "question": "Which of these is the most spoken language in the world by total speakers?",
+    "options": {
+      "a": "Mandarin Chinese",
+      "b": "Spanish",
+      "c": "English",
+      "d": "Hindi"
+    },
+    "answer": "c"
+  },
+  {
+    "id": 149,
+    "question": "Which of these bands was formed in Liverpool?",
+    "options": {
+      "a": "The Rolling Stones",
+      "b": "The Beatles",
+      "c": "The Who",
+      "d": "Led Zeppelin"
+    },
+    "answer": "b"
+  },
+  {
+    "id": 150,
+    "question": "Which of these is the only country to have played in every FIFA World Cup?",
+    "options": {
+      "a": "Germany",
+      "b": "Argentina",
+      "c": "Brazil",
+      "d": "Italy"
+    },
+    "answer": "c"
   }
 ]
