@@ -46,7 +46,7 @@ function RouteComponent() {
   }
 
   const goToRandomQuestion = () => {
-    const randomId = Math.floor(Math.random() * 150) + 1;
+    const randomId = Math.floor(Math.random() * 50) + 1;
     navigate({
       to: '/quiz/$q',
       params: { q: String(randomId) },
