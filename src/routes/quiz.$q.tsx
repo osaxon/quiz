@@ -37,7 +37,7 @@ function RouteComponent() {
 
   const goToNextQuestion = () => {
     const currentId = Number(q);
-    const nextId = currentId >= 150 ? 1 : currentId + 1;
+    const nextId = currentId >= 50 ? 1 : currentId + 1;
     navigate({
       to: '/quiz/$q',
       params: { q: String(nextId) },
