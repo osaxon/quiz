@@ -1648,5 +1648,555 @@
       "d": "Italy"
     },
     "answer": "c"
+  },
+  {
+    "id": 151,
+    "question": "Which of these elements was NOT discovered by Marie Curie?",
+    "options": {
+      "a": "Polonium",
+      "b": "Radium",
+      "c": "Uranium",
+      "d": "Both A and B were discovered by her"
+    },
+    "answer": "c"
+  },
+  {
+    "id": 152,
+    "question": "Which of these films did Stanley Kubrick NOT direct?",
+    "options": {
+      "a": "2001: A Space Odyssey",
+      "b": "A Clockwork Orange",
+      "c": "Blade Runner",
+      "d": "The Shining"
+    },
+    "answer": "c"
+  },
+  {
+    "id": 153,
+    "question": "Which of these capital cities is located on two continents?",
+    "options": {
+      "a": "Moscow",
+      "b": "Istanbul",
+      "c": "Cairo",
+      "d": "None of these - Istanbul is not a capital"
+    },
+    "answer": "d"
+  },
+  {
+    "id": 154,
+    "question": "Which of these musicians has sold the most records worldwide?",
+    "options": {
+      "a": "Michael Jackson",
+      "b": "Elvis Presley",
+      "c": "The Beatles",
+      "d": "Elton John"
+    },
+    "answer": "c"
+  },
+  {
+    "id": 155,
+    "question": "Which of these countries has the most volcanoes?",
+    "options": {
+      "a": "Japan",
+      "b": "Indonesia",
+      "c": "United States",
+      "d": "Iceland"
+    },
+    "answer": "b"
+  },
+  {
+    "id": 156,
+    "question": "Which of these actors has NEVER played a villain in a James Bond film?",
+    "options": {
+      "a": "Javier Bardem",
+      "b": "Mads Mikkelsen",
+      "c": "Ralph Fiennes",
+      "d": "Christoph Waltz"
+    },
+    "answer": "c"
+  },
+  {
+    "id": 157,
+    "question": "Which of these is NOT a real moon of Jupiter?",
+    "options": {
+      "a": "Europa",
+      "b": "Ganymede",
+      "c": "Titan",
+      "d": "Callisto"
+    },
+    "answer": "c"
+  },
+  {
+    "id": 158,
+    "question": "Which of these bands had a drummer who died at age 27?",
+    "options": {
+      "a": "The Who",
+      "b": "Led Zeppelin",
+      "c": "Nirvana",
+      "d": "None of these"
+    },
+    "answer": "d"
+  },
+  {
+    "id": 159,
+    "question": "Which of these countries does NOT have English as an official language?",
+    "options": {
+      "a": "India",
+      "b": "Singapore",
+      "c": "Australia",
+      "d": "United States"
+    },
+    "answer": "d"
+  },
+  {
+    "id": 160,
+    "question": "Which of these films was released BEFORE Jurassic Park (1993)?",
+    "options": {
+      "a": "Terminator 2: Judgment Day",
+      "b": "The Lion King",
+      "c": "Forrest Gump",
+      "d": "Toy Story"
+    },
+    "answer": "a"
+  },
+  {
+    "id": 161,
+    "question": "Which of these scientists did NOT win a Nobel Prize?",
+    "options": {
+      "a": "Albert Einstein",
+      "b": "Stephen Hawking",
+      "c": "Marie Curie",
+      "d": "Niels Bohr"
+    },
+    "answer": "b"
+  },
+  {
+    "id": 162,
+    "question": "Which of these African countries was NEVER colonized by a European power?",
+    "options": {
+      "a": "Morocco",
+      "b": "Egypt",
+      "c": "Ethiopia",
+      "d": "South Africa"
+    },
+    "answer": "c"
+  },
+  {
+    "id": 163,
+    "question": "Which of these songs was NOT written by The Beatles?",
+    "options": {
+      "a": "Yesterday",
+      "b": "Imagine",
+      "c": "Hey Jude",
+      "d": "Let It Be"
+    },
+    "answer": "b"
+  },
+  {
+    "id": 164,
+    "question": "Which of these is the only planet that rotates clockwise?",
+    "options": {
+      "a": "Mercury",
+      "b": "Venus",
+      "c": "Uranus",
+      "d": "Both B and C"
+    },
+    "answer": "d"
+  },
+  {
+    "id": 165,
+    "question": "Which of these directors has won the most Academy Awards for Best Director?",
+    "options": {
+      "a": "Steven Spielberg",
+      "b": "John Ford",
+      "c": "Martin Scorsese",
+      "d": "Francis Ford Coppola"
+    },
+    "answer": "b"
+  },
+  {
+    "id": 166,
+    "question": "Which of these landlocked countries is the largest by area?",
+    "options": {
+      "a": "Mongolia",
+      "b": "Chad",
+      "c": "Kazakhstan",
+      "d": "Mali"
+    },
+    "answer": "c"
+  },
+  {
+    "id": 167,
+    "question": "Which of these albums was released in the 1970s?",
+    "options": {
+      "a": "Thriller",
+      "b": "Rumours",
+      "c": "Purple Rain",
+      "d": "Born in the U.S.A."
+    },
+    "answer": "b"
+  },
+  {
+    "id": 168,
+    "question": "Which of these human organs can regenerate itself?",
+    "options": {
+      "a": "Heart",
+      "b": "Liver",
+      "c": "Kidney",
+      "d": "Brain"
+    },
+    "answer": "b"
+  },
+  {
+    "id": 169,
+    "question": "Which of these actors has NEVER won an Academy Award for acting?",
+    "options": {
+      "a": "Johnny Depp",
+      "b": "Gary Oldman",
+      "c": "Joaquin Phoenix",
+      "d": "Rami Malek"
+    },
+    "answer": "a"
+  },
+  {
+    "id": 170,
+    "question": "Which of these seas is actually a lake?",
+    "options": {
+      "a": "Dead Sea",
+      "b": "Red Sea",
+      "c": "Black Sea",
+      "d": "Both A and C"
+    },
+    "answer": "a"
+  },
+  {
+    "id": 171,
+    "question": "Which of these composers was deaf when they wrote their most famous works?",
+    "options": {
+      "a": "Mozart",
+      "b": "Bach",
+      "c": "Beethoven",
+      "d": "Chopin"
+    },
+    "answer": "c"
+  },
+  {
+    "id": 172,
+    "question": "Which of these is NOT a real chemical element?",
+    "options": {
+      "a": "Yttrium",
+      "b": "Promethium",
+      "c": "Dilithium",
+      "d": "Berkelium"
+    },
+    "answer": "c"
+  },
+  {
+    "id": 173,
+    "question": "Which of these films was NOT based on a Stephen King novel?",
+    "options": {
+      "a": "The Shining",
+      "b": "Misery",
+      "c": "Silence of the Lambs",
+      "d": "Stand By Me"
+    },
+    "answer": "c"
+  },
+  {
+    "id": 174,
+    "question": "Which of these countries has the most islands?",
+    "options": {
+      "a": "Indonesia",
+      "b": "Philippines",
+      "c": "Sweden",
+      "d": "Finland"
+    },
+    "answer": "c"
+  },
+  {
+    "id": 175,
+    "question": "Which of these musicians played at Woodstock in 1969?",
+    "options": {
+      "a": "Led Zeppelin",
+      "b": "The Rolling Stones",
+      "c": "Jimi Hendrix",
+      "d": "The Beatles"
+    },
+    "answer": "c"
+  },
+  {
+    "id": 176,
+    "question": "Which of these blood types is the universal donor?",
+    "options": {
+      "a": "A",
+      "b": "B",
+      "c": "AB",
+      "d": "O negative"
+    },
+    "answer": "d"
+  },
+  {
+    "id": 177,
+    "question": "Which of these films did NOT win the Palme d'Or at Cannes?",
+    "options": {
+      "a": "Pulp Fiction",
+      "b": "The Godfather",
+      "c": "Parasite",
+      "d": "Taxi Driver"
+    },
+    "answer": "b"
+  },
+  {
+    "id": 178,
+    "question": "Which of these countries has a flag with only one color?",
+    "options": {
+      "a": "Japan",
+      "b": "Libya (1977-2011)",
+      "c": "Bangladesh",
+      "d": "None of these currently"
+    },
+    "answer": "d"
+  },
+  {
+    "id": 179,
+    "question": "Which of these artists had a UK number one hit in three different decades?",
+    "options": {
+      "a": "Madonna",
+      "b": "Michael Jackson",
+      "c": "Cliff Richard",
+      "d": "All of the above"
+    },
+    "answer": "d"
+  },
+  {
+    "id": 180,
+    "question": "Which of these is the only metal that is liquid at room temperature?",
+    "options": {
+      "a": "Gallium",
+      "b": "Mercury",
+      "c": "Cesium",
+      "d": "Both A and B"
+    },
+    "answer": "b"
+  },
+  {
+    "id": 181,
+    "question": "Which of these actors appeared in BOTH The Godfather and Apocalypse Now?",
+    "options": {
+      "a": "Al Pacino",
+      "b": "Robert De Niro",
+      "c": "Marlon Brando",
+      "d": "Robert Duvall"
+    },
+    "answer": "d"
+  },
+  {
+    "id": 182,
+    "question": "Which of these countries has the longest national anthem by duration?",
+    "options": {
+      "a": "Greece",
+      "b": "Uruguay",
+      "c": "Argentina",
+      "d": "Spain"
+    },
+    "answer": "a"
+  },
+  {
+    "id": 183,
+    "question": "Which of these bands did NOT originate in the UK?",
+    "options": {
+      "a": "AC/DC",
+      "b": "Def Leppard",
+      "c": "Iron Maiden",
+      "d": "Black Sabbath"
+    },
+    "answer": "a"
+  },
+  {
+    "id": 184,
+    "question": "Which of these vitamins is NOT fat-soluble?",
+    "options": {
+      "a": "Vitamin A",
+      "b": "Vitamin C",
+      "c": "Vitamin D",
+      "d": "Vitamin E"
+    },
+    "answer": "b"
+  },
+  {
+    "id": 185,
+    "question": "Which of these films was shot entirely in one continuous take (or made to appear so)?",
+    "options": {
+      "a": "Birdman",
+      "b": "1917",
+      "c": "Rope",
+      "d": "All of the above"
+    },
+    "answer": "d"
+  },
+  {
+    "id": 186,
+    "question": "Which of these countries does NOT border the Mediterranean Sea?",
+    "options": {
+      "a": "Jordan",
+      "b": "Lebanon",
+      "c": "Libya",
+      "d": "Tunisia"
+    },
+    "answer": "a"
+  },
+  {
+    "id": 187,
+    "question": "Which of these musicians was NOT born in the United States?",
+    "options": {
+      "a": "Jimi Hendrix",
+      "b": "Eddie Van Halen",
+      "c": "Kurt Cobain",
+      "d": "Bruce Springsteen"
+    },
+    "answer": "b"
+  },
+  {
+    "id": 188,
+    "question": "Which of these is the most abundant element in the universe?",
+    "options": {
+      "a": "Oxygen",
+      "b": "Carbon",
+      "c": "Hydrogen",
+      "d": "Helium"
+    },
+    "answer": "c"
+  },
+  {
+    "id": 189,
+    "question": "Which of these films was NOT nominated for Best Picture at the Oscars?",
+    "options": {
+      "a": "The Dark Knight",
+      "b": "Avatar",
+      "c": "Inception",
+      "d": "Both A and C"
+    },
+    "answer": "d"
+  },
+  {
+    "id": 190,
+    "question": "Which of these cities is NOT located on the River Thames?",
+    "options": {
+      "a": "Oxford",
+      "b": "Reading",
+      "c": "Cambridge",
+      "d": "Windsor"
+    },
+    "answer": "c"
+  },
+  {
+    "id": 191,
+    "question": "Which of these albums has sold the most copies worldwide?",
+    "options": {
+      "a": "Back in Black - AC/DC",
+      "b": "The Dark Side of the Moon - Pink Floyd",
+      "c": "Thriller - Michael Jackson",
+      "d": "Their Greatest Hits - Eagles"
+    },
+    "answer": "c"
+  },
+  {
+    "id": 192,
+    "question": "Which of these bones is NOT found in the human ear?",
+    "options": {
+      "a": "Hammer",
+      "b": "Anvil",
+      "c": "Stirrup",
+      "d": "Drum"
+    },
+    "answer": "d"
+  },
+  {
+    "id": 193,
+    "question": "Which of these directors has NEVER made a film with Leonardo DiCaprio?",
+    "options": {
+      "a": "Martin Scorsese",
+      "b": "Christopher Nolan",
+      "c": "Quentin Tarantino",
+      "d": "Steven Spielberg"
+    },
+    "answer": "d"
+  },
+  {
+    "id": 194,
+    "question": "Which of these countries has the most UNESCO World Heritage Sites?",
+    "options": {
+      "a": "Spain",
+      "b": "China",
+      "c": "Italy",
+      "d": "France"
+    },
+    "answer": "c"
+  },
+  {
+    "id": 195,
+    "question": "Which of these songs was a posthumous number one hit?",
+    "options": {
+      "a": "Bohemian Rhapsody - Queen",
+      "b": "Imagine - John Lennon",
+      "c": "Purple Rain - Prince",
+      "d": "All of the above"
+    },
+    "answer": "d"
+  },
+  {
+    "id": 196,
+    "question": "Which of these is NOT one of the four fundamental forces of nature?",
+    "options": {
+      "a": "Gravity",
+      "b": "Electromagnetic force",
+      "c": "Centrifugal force",
+      "d": "Strong nuclear force"
+    },
+    "answer": "c"
+  },
+  {
+    "id": 197,
+    "question": "Which of these films features a character who says 'I'll be back'?",
+    "options": {
+      "a": "The Terminator",
+      "b": "Predator",
+      "c": "Commando",
+      "d": "All of the above"
+    },
+    "answer": "d"
+  },
+  {
+    "id": 198,
+    "question": "Which of these European countries does NOT have a monarchy?",
+    "options": {
+      "a": "Belgium",
+      "b": "Netherlands",
+      "c": "Austria",
+      "d": "Luxembourg"
+    },
+    "answer": "c"
+  },
+  {
+    "id": 199,
+    "question": "Which of these artists painted the ceiling of the Sistine Chapel?",
+    "options": {
+      "a": "Leonardo da Vinci",
+      "b": "Raphael",
+      "c": "Michelangelo",
+      "d": "Donatello"
+    },
+    "answer": "c"
+  },
+  {
+    "id": 200,
+    "question": "Which of these statements about the Great Wall of China is TRUE?",
+    "options": {
+      "a": "It's visible from space with the naked eye",
+      "b": "It was built entirely during one dynasty",
+      "c": "It's the longest wall ever built",
+      "d": "It runs in a perfectly straight line"
+    },
+    "answer": "c"
   }
 ]

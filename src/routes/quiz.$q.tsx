@@ -1,4 +1,4 @@
-import { questionQueryOptions } from '@/utils/quiz.api';
+import { getTotalQuestions, questionQueryOptions } from '@/utils/quiz.api';
 import { createFileRoute, useNavigate } from '@tanstack/react-router';
 import { zodValidator } from '@tanstack/zod-adapter';
 import { useEffect, useState, type ChangeEvent, type KeyboardEvent } from 'react';
@@ -6,6 +6,7 @@ import z from 'zod';
 
 const ROUNDS_STORAGE_KEY = 'quiz-rounds-completed';
 const ANSWERED_STORAGE_KEY = 'quiz-answered-questions';
+const TOTAL_QUESTIONS = getTotalQuestions();
 
 const questionSearchParams = z.object({
   showAnswer: z.boolean().optional()
@@ -98,7 +99,7 @@ function RouteComponent() {
 
   const goToNextQuestion = () => {
     const currentId = Number(q);
-    const nextId = currentId >= 150 ? 1 : currentId + 1;
+    const nextId = currentId >= TOTAL_QUESTIONS ? 1 : currentId + 1;
     navigate({
       to: '/quiz/$q',
       params: { q: String(nextId) },
@@ -107,7 +108,7 @@ function RouteComponent() {
   }
 
   const goToRandomQuestion = () => {
-    const randomId = Math.floor(Math.random() * 150) + 1;
+    const randomId = Math.floor(Math.random() * TOTAL_QUESTIONS) + 1;
     navigate({
       to: '/quiz/$q',
       params: { q: String(randomId) },
@@ -128,8 +129,8 @@ function RouteComponent() {
       return;
     }
     
-    if (questionNumber < 1 || questionNumber > 150) {
-      setInputError('Question number must be between 1 and 150');
+    if (questionNumber < 1 || questionNumber > TOTAL_QUESTIONS) {
+      setInputError(`Question number must be between 1 and ${TOTAL_QUESTIONS}`);
       return;
     }
     
@@ -163,7 +164,7 @@ function RouteComponent() {
     <div className="min-h-screen bg-gradient-to-b from-slate-900 via-slate-800 to-slate-900 p-8">
       <div className="max-w-2xl mx-auto bg-slate-800 rounded-lg p-6 shadow-xl">
         <h2 className="text-2xl font-bold text-white mb-4">
-          Question {question.id} of 150
+          Question {question.id} of {TOTAL_QUESTIONS}
         </h2>
         <p className="text-lg text-white mb-6">{question.question}</p>
         
@@ -218,7 +219,7 @@ function RouteComponent() {
         <div className="mt-4 p-4 bg-slate-700 rounded text-white text-center">
           <span className="text-lg font-bold">Rounds Completed: {roundsCompleted}</span>
           <span className="mx-4">|</span>
-          <span className="text-sm">Questions Answered: {answeredQuestions.length}/150</span>
+          <span className="text-sm">Questions Answered: {answeredQuestions.length}/{TOTAL_QUESTIONS}</span>
           {answeredQuestions.includes(Number(q)) && (
             <span className="ml-2 text-yellow-400 text-sm">(Already answered)</span>
           )}
@@ -259,11 +260,11 @@ function RouteComponent() {
             <input
               type="number"
               min="1"
-              max="150"
+              max={TOTAL_QUESTIONS}
               value={goToInput}
               onChange={handleInputChange}
               onKeyPress={handleKeyPress}
-              placeholder="Enter 1-150"
+              placeholder={`Enter 1-${TOTAL_QUESTIONS}`}
               className="flex-1 bg-slate-700 text-white px-4 py-2 rounded border border-slate-600 focus:outline-none focus:border-blue-500"
             />
             <button
